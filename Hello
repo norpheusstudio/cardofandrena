@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaScript Element ID</title>
+</head>
+
+<body>
+  <p id="tvl"></p>
+  <p id="abm"></p>
+  <p id="humss"></p>
+  <p id="stem"></p>
+  
+  <script>
+    var demo;{
+        let x = 5;
+        let y = 2;
+        let z = x + y;
+        
+        document.getElementById('tvl').innerHTML = z;
+    }
+    
+    var demo1;{
+        let x = 54;
+        let y = 20;
+        let z = x - y;
+        
+        document.getElementById('abm').innerHTML = z;
+    }
+    
+    var demo2;{
+        let x = 5;
+        let y = 4;
+        let z = x * y;
+        
+        document.getElementById('humss').innerHTML = z;
+    }
+    
+    var demo3;{
+        let x = 9;
+        let y = 2;
+        let z = x / y;
+        
+        document.getElementById('stem').innerHTML = z;
+    }
+    
+  </script>
+</body>
+</html>
